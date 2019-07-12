@@ -15,31 +15,34 @@
     <div class="container">
         <div class="row d-flex align-content-center justify-content-center" style="height: 100vh;">
             <div class="col-7">
-                <form action="POST" id="form1">
+                <form action="POST" id="form2">
                     <h1 class="mb-5">
                         FIGMA API
                     </h1>
+
                     <div class="form-group">
-                        <input type="text" class="form-control" name="client_id" id="" aria-describedby="helpId" placeholder="client_id" value="gBwjMlNGLr5nTgSi9DQHWGvSJreLAk">
+                        <!-- ok -->
+                        <input type="text" class="form-control" name="client_id" id="" aria-describedby="helpId" placeholder="client_id" value="S4sCUPIMRdlWLuUPknQYtj">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" name="redirect_uri" id="" aria-describedby="helpId" placeholder="callback">
+                        <!-- ok -->
+                        <input type="text" class="form-control" name="client_secret" id="" aria-describedby="helpId" placeholder="client_secret" value="a8pQUfwu6ByDep09wRkntCGx3vd1b0">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="scope" id="" aria-describedby="helpId" placeholder="scope" value="file_read">
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="state" id="" aria-describedby="helpId" placeholder="state">
+                        <!-- ok -->
+                        <input type="text" class="form-control" name="redirect_uri" id="" aria-describedby="helpId" placeholder="callback" value="http://127.0.0.1/2019/APIs-Repository/Figma/callback.php">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="response_type" id="" aria-describedby="helpId" placeholder="response_type" value="code">
+                        <!-- ok -->
+                        <input type="text" class="form-control" name="code" id="" aria-describedby="helpId" placeholder="code" value="<?php echo $_GET['code']; ?>">
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">Submit</button> https://www.figma.com/oauth?client_id=S4sCUPIMRdlWLuUPknQYtj&redirect_uri=http://127.0.0.1/2019/APIs-Repository/Figma/callback.php&scope=file_read&state=0&response_type=code
-                    { access_token: "O98xoKHcUEPjZ82HW22o7Y01Mm-PrrGjzZqv6N0B", refresh_token: "MP6PeqVpVYGXcifsfciA-EU1ab41rfW8949KCi1LPSqVQpGny5zYRw", expires_in: 7776000 }
+                     <div class="form-group">
+                        <!-- ok -->
+                        <input type="text" class="form-control" name="grant_type" id="" aria-describedby="helpId" placeholder="grant_type" value="authorization_code">
+                    </div>
 
-
+                    <button type="submit" class="btn btn-primary w-100">Submit</button> 
                 </form>
             </div>
         </div>
