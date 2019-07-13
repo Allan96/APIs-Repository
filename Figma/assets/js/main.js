@@ -44,7 +44,7 @@ $('#form2').submit(function(e) {
         data: $('#form2').serialize(),
         dataType: "json",
         success: function(response) {
-            AcessoAPI(response, 'https://api.figma.com/v1/files/SJlnbuwQSqxDsmfZyayNv8J2')
+            AcessoAPI(response, 'https://api.figma.com/v1/files/ezYc2QbkSjcnnahRYZz85ntY')
         },
         error: function(response) {
             console.log(response);
