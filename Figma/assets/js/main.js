@@ -25,7 +25,9 @@ function AcessoAPI(value, stringFinal) {
         dataType: "json",
         success: function(response) {
             console.log('SUCESSOOO');
+
             console.log(response);
+            $('body').append(response);
         },
         error: function(response) {
             console.log(value['access_token']);
@@ -44,7 +46,7 @@ $('#form2').submit(function(e) {
         data: $('#form2').serialize(),
         dataType: "json",
         success: function(response) {
-            AcessoAPI(response, 'https://api.figma.com/v1/files/ezYc2QbkSjcnnahRYZz85ntY')
+            AcessoAPI(response, 'https://api.figma.com/v1/files/EgRklW3MZUgaza144c9kX8jv')
         },
         error: function(response) {
             console.log(response);

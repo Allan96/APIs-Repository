@@ -1,0 +1,79 @@
+{ document: {…}, components: {…}, schemaVersion: 0, styles: {…}, name: "Teste API", … }
+components:
+    3: 2: { key: "", name: "Rect1", description: "" }
+3: 3: { key: "", name: "Rect 2", description: "" }
+__proto__: Object
+document:
+    children: Array(1)
+0:
+    backgroundColor: { r: 0.8980392217636108, g: 0.8980392217636108, b: 0.8980392217636108, a: 1 }
+children: Array(2)
+0:
+    absoluteBoundingBox: { x: -353, y: -265, width: 303, height: 142 }
+background: Array(1)
+0: { blendMode: "NORMAL", visible: false, type: "SOLID", color: {…} }
+length: 1
+__proto__: Array(0)
+backgroundColor: { r: 0, g: 0, b: 0, a: 0 }
+blendMode: "PASS_THROUGH"
+children: [{…}]
+clipsContent: false
+constraints: { vertical: "TOP", horizontal: "LEFT" }
+effects: []
+id: "3:2"
+name: "Rect1"
+type: "COMPONENT"
+__proto__: Object
+1:
+    absoluteBoundingBox: { x: -353, y: -98, width: 303, height: 142 }
+background: [{…}]
+backgroundColor: { r: 0, g: 0, b: 0, a: 0 }
+blendMode: "PASS_THROUGH"
+children: [{…}]
+clipsContent: false
+constraints: { vertical: "TOP", horizontal: "LEFT" }
+effects: []
+id: "3:3"
+name: "Rect 2"
+type: "COMPONENT"
+__proto__: Object
+length: 2
+__proto__: Array(0)
+id: "0:1"
+name: "Page 1"
+prototypeStartNodeID: null
+type: "CANVAS"
+__proto__: Object
+length: 1
+__proto__: Array(0)
+id: "0:0"
+name: "Document"
+type: "DOCUMENT"
+__proto__: Object
+lastModified: "2019-07-13T20:57:19.623125Z"
+name: "Teste API"
+schemaVersion: 0
+styles:
+    1: 4:
+    description: ""
+key: "d9ed6de8e790752b9a95f65ba9b0b77ac18806cb"
+name: "Yellow"
+styleType: "FILL"
+__proto__: Object
+__proto__: Object
+thumbnailUrl: "https://s3-alpha-sig.figma.com/thumbnails/2eb00ca7-2801-4147-a667-41d0200dc0dd?Expires=1563753600&Signature=dciOTYWglFgDlzvgEa~FdPdsZPOzhQZbm3MlMI~70HWj-wbbSB1E-COQ3v3nDON7WBDOa9MwIqTHrXQFlUw7hty3HosO8NS932ClJ5Iewy01dm8trlJOiRcyhhVRLmPM8E7Fu60T922qlMwCqOk0doFVngysOKejfExvdOpeUMi0OTsBnRzHAmdBdlny63CM52Oyt764hTgJiGgJzdyqZoXGrgiUyed~FhXIIvKqUrwkEyPrAY~xgxfpiEqBjGC01YWtB-DFpIiMXjMkf1OMdbhSTzCiYmxxFZpsf2S70rmI3Hemj1qayM7jPpvK6VtMmpql~ShiZgGETaugY5W8XQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+version: "149855528"
+__proto__:
+    constructor: ƒ Object()
+hasOwnProperty: ƒ hasOwnProperty()
+isPrototypeOf: ƒ isPrototypeOf()
+propertyIsEnumerable: ƒ propertyIsEnumerable()
+toLocaleString: ƒ toLocaleString()
+toString: ƒ toString()
+valueOf: ƒ valueOf()
+__defineGetter__: ƒ __defineGetter__()
+__defineSetter__: ƒ __defineSetter__()
+__lookupGetter__: ƒ __lookupGetter__()
+__lookupSetter__: ƒ __lookupSetter__()
+get __proto__: ƒ __proto__()
+set __proto__: ƒ __proto__()
