@@ -24,22 +24,22 @@ function AcessoAPI(value, stringFinal) {
         },
         dataType: "json",
         success: function(response) {
-            console.log('SUCESSOOO');
+            // console.log('SUCESSOOO');
 
             console.log(response);
-            $('body').append(response);
+            // $('body').append(response);
         },
         error: function(response) {
             console.log(value['access_token']);
-            console.log('ERROO');
-            console.log(response);
+            // console.log('ERROO');
+            // console.log(response);
         }
     });
 }
 
 $('#form2').submit(function(e) {
     e.preventDefault();
-    console.log($('#form2').serialize());
+    // console.log($('#form2').serialize());
     $.ajax({
         type: "POST",
         url: "https://www.figma.com/api/oauth/token",
