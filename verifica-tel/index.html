@@ -31,7 +31,7 @@
             $('#dados').html('');
             e.preventDefault();
             var tel = $('#telefone').val();
-            $.getJSON("http://apilayer.net/api/validate?access_key=70407c3475e8e1574cbefb9a5384c71e&number=" + tel + "&country_code=&format=1",
+            $.getJSON("https://apilayer.net/api/validate?access_key=70407c3475e8e1574cbefb9a5384c71e&number=" + tel + "&country_code=&format=1",
                 function(data) {
                     if (data["valid"]) {
                         $('#dados').append('Operadora: ' + data["carrier"]);
